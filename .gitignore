@@ -1,0 +1,4 @@
+config/auth.json
+__pycache__
+ratelimits.json
+report.html
