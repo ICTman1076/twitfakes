@@ -1,3 +1,14 @@
+# THE LICENSED WORK IS PROVIDED UNDER THE TERMS OF THE ADAPTIVE PUBLIC LICENSE ("LICENSE") AS FIRST COMPLETED BY
+# ICTman1076. ANY USE, PUBLIC DISPLAY, PUBLIC PERFORMANCE, REPRODUCTION OR DISTRIBUTION OF, OR PREPARATION OF
+# DERIVATIVE WORKS BASED ON, THE LICENSED WORK CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS LICENSE AND ITS TERMS,
+# WHETHER OR NOT SUCH RECIPIENT READS THE TERMS OF THE LICENSE. "LICENSED WORK" AND "RECIPIENT" ARE DEFINED IN THE
+# LICENSE. A COPY OF THE LICENSE IS LOCATED IN THE TEXT FILE ENTITLED "LICENSE.TXT" ACCOMPANYING THE CONTENTS OF
+# THIS FILE. IF A COPY OF THE LICENSE DOES NOT ACCOMPANY THIS FILE, A COPY OF THE LICENSE MAY ALSO BE OBTAINED AT
+# THE FOLLOWING WEB SITE: https://ictman1076.github.io/twitfakes
+#
+# Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either
+# express or implied. See the License for the specific language governing rights and limitations under the License.
+
 from tweepy import API, OAuthHandler
 import json
 import string
@@ -8,12 +19,6 @@ with open("config/data.json") as f:
     config=json.loads(f.read())
 with open("config/auth.json") as f:
     authdata=json.loads(f.read())
-
-# Go to http://apps.twitter.com and create an app.
-# The consumer key and secret will be generated for you after
-
-# After the step above, you will be redirected to your app's page.
-# Create an access token under the the "Your access token" section
 
 auth = OAuthHandler(authdata['consumer_key'], authdata['consumer_secret'])
 auth.set_access_token(authdata['access_token'], authdata['access_token_secret'])
