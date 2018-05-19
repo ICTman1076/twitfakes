@@ -6,11 +6,11 @@ The config and auth file are example files, and are there to give the basic fram
 it easier to set up. Currently, they are setup to detect fakes for [@LBRYio](https://twitter.com/LBRYio), the
 account this was designed for, but you can set it up for something else.
 
-**You can access the repository at https://github.com/ICTman1076/twitfakes** - it's open source!
+**You can access the repository at [https://github.com/ICTman1076/twitfakes](https://github.com/ICTman1076/twitfakes)** - it's [open source](https://ictman1076.github.io/twitfakes/licensesummary)!
 
 ## Installation
 
-To install, go to xyz.
+To install, go to [https://ictman1076.github.io/twitfakes/install](https://ictman1076.github.io/twitfakes/install).
 
 ## Running the script
 
@@ -27,9 +27,9 @@ The wizard from thereonin is self-explanatory - when presented with an option, u
 Search by [R]ecent replies or [S]earch bar?
 ```
 
-you woud respond with `R` to scan by recent replies, or `S` to scan by search.
+you would respond with `R` to scan by recent replies, or `S` to scan by search.
 
 ## Licensing
 
 The licensed used for the is the Adaptive Public License. You may see it in full in the `LICENSE.txt` file. A summary is
-available at xyz.
+available [here](https://ictman1076.github.io/twitfakes/licensesummary).
