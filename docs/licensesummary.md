@@ -8,6 +8,7 @@ The licensed used for the is the Adaptive Public License. You may see it in full
 ### You MUST:
 - Include the License AS-IS in LICENSE.txt
 - Include this notice at the beginning of all source code files:
+
 ```
 THE LICENSED WORK IS PROVIDED UNDER THE TERMS OF THE ADAPTIVE PUBLIC LICENSE ("LICENSE") AS FIRST COMPLETED BY
 ICTman1076. ANY USE, PUBLIC DISPLAY, PUBLIC PERFORMANCE, REPRODUCTION OR DISTRIBUTION OF, OR PREPARATION OF
@@ -20,6 +21,7 @@ THE FOLLOWING WEB SITE: https://ictman1076.github.io/twitfakes
 Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either
 express or implied. See the License for the specific language governing rights and limitations under the License.
 ```
+
 - Disclose the source code
 - State any significant changes made to the source code
 - Give credit to the author, ICTman1076 (https://ictman1076.github.io). It would be nice if you would credit other major
