@@ -45,7 +45,7 @@ def checkfake(u):
             if safe:
                 html+="<p>Seems to be ok.</p>"
     except:
-        print("Acc is private, probably not scam")
+        print("Acc is private or other issue")
         html+="<p>There was issues getting the account's data - Account is probably private.</p>"
     return html
 
@@ -82,8 +82,10 @@ while True:
             print("Gone through 100 tweets, the max I can do.")
         with open("report.html","w") as f:
             f.write(html.encode("ascii", errors="ignore").decode())
+        print("In the same directory as you ran me in, I have created a report.html file.")
+        print("It pretty-prints the results above. I recommend you use that instead of the mess above.")
     elif cmd == "manual" or cmd == "m":
-        name=input("name> ")
+        name=input("Enter their @username, without the @\nname> ")
         if name != config['official']:
             userposts=api.user_timeline(name)
             for j in userposts:
