@@ -1,4 +1,4 @@
-This work is (c) ICTman1076, 2018. It is licensed under the APL 1.0, as seen below. 
+This work is (c) ICTman1076, 2018. It is licensed under the APL 1.0, as seen below. A license summary can be found in the README.
 
 ADAPTIVE PUBLIC LICENSE 
 
