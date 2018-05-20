@@ -11,8 +11,6 @@
 
 from tweepy import API, OAuthHandler
 import json
-import string
-printable = set(string.printable)
 
 config={}
 with open("config/data.json") as f:
