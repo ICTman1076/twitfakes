@@ -8,6 +8,9 @@ account this was designed for, but you can set it up for something else.
 
 ## Installation
 
+First, download all the files in the repo. Then open up a console window, and change directory to
+where you extracted the files and run `pip install -r requirements.txt`.
+
 First, you'll need to [create a Twitter app](https://apps.twitter.com/), to get the necessary API keys. It doesn't
 particularly matter what the exact details of it are, you just need to **create the app, then go to the "keys and
 access tokens" tab.** You'll see the consumer key and secret. **Fill in these keys in `config/auth-example.json`.**
@@ -63,10 +66,10 @@ The licensed used for the is the Adaptive Public License. You may see it in full
 - Include this notice at the beginning of all source code files:
 ```
 THE LICENSED WORK IS PROVIDED UNDER THE TERMS OF THE ADAPTIVE PUBLIC LICENSE ("LICENSE") AS FIRST COMPLETED BY
-ICTman1076. ANY USE, PUBLIC DISPLAY, PUBLIC PERFORMANCE, REPRODUCTION OR DISTRIBUTION OF, OR PREPARATION OF 
+ICTman1076. ANY USE, PUBLIC DISPLAY, PUBLIC PERFORMANCE, REPRODUCTION OR DISTRIBUTION OF, OR PREPARATION OF
 DERIVATIVE WORKS BASED ON, THE LICENSED WORK CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS LICENSE AND ITS TERMS,
 WHETHER OR NOT SUCH RECIPIENT READS THE TERMS OF THE LICENSE. "LICENSED WORK" AND "RECIPIENT" ARE DEFINED IN THE
-LICENSE. A COPY OF THE LICENSE IS LOCATED IN THE TEXT FILE ENTITLED "LICENSE.TXT" ACCOMPANYING THE CONTENTS OF 
+LICENSE. A COPY OF THE LICENSE IS LOCATED IN THE TEXT FILE ENTITLED "LICENSE.TXT" ACCOMPANYING THE CONTENTS OF
 THIS FILE. IF A COPY OF THE LICENSE DOES NOT ACCOMPANY THIS FILE, A COPY OF THE LICENSE MAY ALSO BE OBTAINED AT
 THE FOLLOWING WEB SITE: https://ictman1076.github.io/twitfakes
 
