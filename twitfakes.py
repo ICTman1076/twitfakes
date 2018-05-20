@@ -10,7 +10,7 @@
 # express or implied. See the License for the specific language governing rights and limitations under the License.
 
 from tweepy import API, OAuthHandler
-import json
+import json, time
 
 config={}
 with open("config/data.json") as f:
@@ -61,6 +61,7 @@ while True:
         html="<h1>REPORT</h1><br/>"
         by=input("Search by [R]ecent replies or [S]earch bar?\nsrch> ").lower()
         if by=="s":
+            autopage=input("Change page [A]utomatically or [M]anually?\npage> ").lower()
             dealtwith=[]
             for p in range(1,11):
                 lbryusers = api.search_users("LBRY",20,p)
@@ -70,9 +71,12 @@ while True:
                     else:
                         html+=checkfake(i)
                         dealtwith.append(i)
-                cont=input("[N]ext page or [C]ancel/[F]inish?\npage> ").lower()
-                if cont == "c" or cont == "f":
-                    break
+                if autopage=="a":
+                    time.sleep(2.2)
+                else:
+                    cont=input("[N]ext page or [C]ancel/[F]inish?\npage> ").lower()
+                    if cont == "c" or cont == "f":
+                        break
         elif by=="r":
             dealtwith=[]
             userposts=api.search("@"+config['official'],rpp=100)
