@@ -1,10 +1,13 @@
 # Installing Twitfakes
 
-First, you'll need to [create a Twitter app](https://apps.twitter.com/), to get the necessary API keys. It doesn't
+First, download all the files in the repo. Then open up a console window, and change directory to
+where you extracted the files and run `pip install -r requirements.txt`.
+
+Next, you'll need to [create a Twitter app](https://apps.twitter.com/), to get the necessary API keys. It doesn't
 particularly matter what the exact details of it are, you just need to **create the app, then go to the "keys and
 access tokens" tab.** You'll see the consumer key and secret. **Fill in these keys in `config/auth-example.json`.**
 
-Next, go back to the keys and access tokens page and scroll down a bit. You'll see a section entitled "Your access
+Now, go back to the keys and access tokens page and scroll down a bit. You'll see a section entitled "Your access
 token". There should be a button to generate a token and secret. **Generate an access token and secret, then fill it
 in to `config/auth-example.json`.**
 
